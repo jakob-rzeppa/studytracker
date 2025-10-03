@@ -6,6 +6,7 @@ use Symfony\Component\Console\Application;
 
 class CommandsManager
 {
+    // List of command classes to be registered
     private static array $commands = [
         Command\StartCommand::class,
         Command\StopCommand::class,
